@@ -3,7 +3,7 @@
 ## let和const
 - let 所声明的变量，只在let命令所在的**代码块内**有效。
 - let 不存在变量提升
-`
+```
 // var 的情况
 console.log(foo); // 输出undefined
 var foo = 2;
@@ -11,7 +11,7 @@ var foo = 2;
 // let 的情况
 console.log(bar); // 报错ReferenceError
 let bar = 2;
-`
+```
 
 - let 暂时性死区
 只要块级作用域内存在let命令，它所声明的变量就“绑定”（binding）这个区域，不再受外部的影响。
