@@ -1,0 +1,19 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "- let 所声明的变量，只在let命令所在的**代码块内**有效。\r - let 不存在变量提升\r ```\r // var 的情况\r console.log(foo); // 输出undefined\r var foo = 2;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellocassiell/ES6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellocassiell/ES6/issues"
+  },
+  "homepage": "https://github.com/hellocassiell/ES6#readme"
+}
