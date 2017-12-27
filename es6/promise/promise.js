@@ -1,12 +1,3 @@
-function timeout (ms) {
-	return new Promise ((resolve,reject) => {
-		setTimeout(resolve,ms,'done');
-	});
-}
-
-timeout(100).then ((value) => {
-	console.log(value);
-});
 
 //用Promise实现Ajax
 
@@ -31,3 +22,8 @@ var getJSON = function (url) {
 	return promise;
 };
 
+getJSON("../../../es6/es6/promise/data.json").then(function (json) {
+	console.log("sucess:" + json);
+},function (error) {
+	console.log("error:" + error);
+});
