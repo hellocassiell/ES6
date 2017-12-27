@@ -44,4 +44,5 @@ function func(arg) {
 }
 ```
 
-
+## 数值的扩展
+Number.isNaN()    检测一个值是否为NaN
