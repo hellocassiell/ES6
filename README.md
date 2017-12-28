@@ -52,6 +52,8 @@ ES6 引入了块级作用域，明确允许在块级作用域之中声明函数�
 
 ### const 
 const声明一个**只读**的常量。一旦声明，常量的值就不能改变
+const一旦声明变量，就必须立即初始化，不能留到以后赋值。
+const  只在声明所在的块级作用域内有效;不提升;存在暂时性死区
 ```
 const PI = 3.1415;
 PI // 3.1415
@@ -59,5 +61,9 @@ PI // 3.1415
 PI = 3;
 // TypeError: Assignment to constant variable.
 ```
+
+##### es6声明变量的六种方法
+var function let const import class
+ES5 只有两种声明变量的方法：var命令和function命令
 ## 数值的扩展
 Number.isNaN()    检测一个值是否为NaN
