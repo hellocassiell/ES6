@@ -66,4 +66,5 @@ PI = 3;
 var function let const import class
 ES5 只有两种声明变量的方法：var命令和function命令
 ## 数值的扩展
-Number.isNaN()    检测一个值是否为NaN
+![](../images/number.jpg)
+
