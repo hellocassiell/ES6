@@ -66,5 +66,10 @@ PI = 3;
 var function let const import class
 ES5 只有两种声明变量的方法：var命令和function命令
 ## 数值的扩展
-![](../images/number.jpg)
-
+![]()
+## 数组的扩展
+![]()
+## 对象的扩展
+![]()
+## 函数的扩展
+![]()
